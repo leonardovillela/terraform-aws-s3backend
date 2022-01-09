@@ -1,5 +1,4 @@
 output "config" {
-  type = "object"
   value = {
     bucket         = aws_s3_bucket.s3_bucket.bucket
     region         = data.aws_region.current.name
